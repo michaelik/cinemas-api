@@ -1,0 +1,23 @@
+{
+  "name": "cinemas-api",
+  "version": "1.0.0",
+  "description": "Get movie show times from different cinemas",
+  "main": "index.js",
+  "repository": "https://github.com/ashinzekene/cinemas-api",
+  "author": "ashinzekene <ashinzekene@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "run": "node index.js",
+    "test": "mocha",
+    "run:dev": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  }
+}
