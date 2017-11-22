@@ -48,6 +48,10 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.0.0.tgz#d32815404d689699f85a4ea4fa8755dd13a96048"
 
+chai-cheerio@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/chai-cheerio/-/chai-cheerio-1.0.0.tgz#5dd2f29bd7a02340c94180fdca02fe666a1210a3"
+
 chai-http@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/chai-http/-/chai-http-3.0.0.tgz#5460d8036e1f1a12b0b5b5cbd529e6dc1d31eb4b"
