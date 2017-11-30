@@ -8,7 +8,7 @@ module.exports = (url) => {
         reject(err)
         return
       }
-      resolve(cheerio.load(body, { normalizeWhitespace:true }))
+      resolve(cheerio.load(body, { normalizeWhitespace:true }) , body)
     })
   })
 }

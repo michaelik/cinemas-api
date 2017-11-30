@@ -10,5 +10,5 @@ module.exports = (url) => {
       }
       resolve(cheerio.load(data, { normalizeWhitespace:true }))
     })
-  })
+  }).catch(console.log)
 }
